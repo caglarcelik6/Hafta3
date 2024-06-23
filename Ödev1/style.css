@@ -1,0 +1,104 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: white;
+    background-color: #333;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: #333;
+}
+
+h2{
+    color: #333;
+}
+
+p{
+    color: #666;
+}
+
+ul{
+    text-align: center;
+    
+}
+
+li{
+    display: inline;
+    color: white;
+    margin: 15px;
+    margin left: 10px;
+    font-size: 20px;
+    
+    
+}
+/* Navbar Style */
+.c1{
+    height: 150px;
+    background-color: #333;
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+    }
+/* Footer Style */
+.c2{
+    height: 75px;
+    background-color: #333;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+}
+/* Bağlantılar Style */
+a{
+    color: white;
+}
+
+.p1{
+    color: white;
+    text-align: center;
+}
+/* Container Style */
+.container{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+/*Ana Sayfa Box1 Style */
+.a1{
+    background-color: white;
+    height: 400px;
+    width: %30;
+    padding: 50px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    
+    
+}
+/* Ana Sayfa Box2 Style */
+.a2{
+    background-color:white;
+    width: %30px;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+/* Posts Sayfası Box1 Style */
+.a3{
+    margin: auto;
+    background-color:white;
+    width: %30px;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+    <!-- Başlık -->
+    <h1 id="title">Survey Form For CSS Practice</h1>
+    <p id="description">Lütfen aşağıdaki formu eksiksiz tamamlayınız.</p>
+    <!-- Container Classı -->
+    <div class="container">
+        <form id="survey-form">
+            <!-- İsim -->
+            <div class="input-group">
+                <input type="text" id="name-label" required name="name">
+                <label for="">Ad Soyad</label>
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+            </div><br>
+            <!-- Email -->
+            <div class="input-group">
+                <input type="email" id="email-label" required name="email">
+                <label for="">E-mail</label>
+                <span class="material-symbols-outlined">
+                    mail
+                    </span>
+            
+            </div><br>
+            <!-- Yaş -->
+            <div class="input-group">
+                <input type="number" id="number-label" required name="number" min="10" max="100">
+                <label for="">Yaş</label>
+                <span class="material-symbols-outlined">
+                    cake
+                    </span>
+            </div><br><br>
+            
+            
+            <!-- Cinsiyet Alanı -->
+        <select name="gender" id="dropdown">
+            <option value="male">Bir Cinsiyet Seçiniz</option>
+            <option value="male">Erkek</option>
+            <option value="Female">Kadın</option>
+            <option value="other">Diğer</option>
+        </select><br><br>
+    
+             <!--Radio Butonları  -->
+            <label for="">Bizi Nereden Duydunuz?</label><br>
+            <input type="radio" id="radio" name="sm" value="Twitter">
+            <label for="twitter">Twitter</label><br>
+            <input type="radio" id="radio" name="sm" value="Instagram">
+            <label for="instagram">Instagram</label><br>
+            <input type="radio" id="radio" name="sm" value="Linkedin">
+            <label for="linkedin">Linkedin</label><br><br>
+    
+            <input type="checkbox" id="check1" name="check1" value="bildirim">
+            <label for="bildirim">Bildirimler telefon yoluyla ulaştırılacaktır.</label><br>
+    
+            <input type="checkbox" id="check2" name="check2" value="bildirim">
+            <label for="bildirim">Bildirimler mail yoluyla ulaştırılacaktır.</label><br>
+            <!-- Öneriler -->
+            <textarea id="suggestions" name="suggestions" placeholder="Önerileriniz">
+                
+            </textarea>
+            <!-- Kayıt Ol -->
+            <div class="input-group-2">
+                <button type="submit" class="signupbtn"><strong>Kayıt ol</strong></button>
+
+            </div>
+            
+    
+        </form>
+
+    </div>
+
+    
+</body>
+</html>

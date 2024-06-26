@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(190, 179, 179);
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    padding: 50px;
+    width: 400px;
+    height: 700px;
+    border: 1px solid cornflowerblue;
+    margin: auto;
+    border-radius: 10%;
+    position: relative;
+    
+    
+    
+}
+/* Input alanı CSS */
+.input-group{
+    position: relative;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Label alanı CSS */
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left:35px;
+    transform: translateY(-50%);
+    transition: .5s;
+    color: white;
+    
+}
+
+.input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 0 10px;
+    background: transparent;
+    border: 3px solid white;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label{
+top: 0;
+font-size: 12px;
+background-color: cornflowerblue;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    right:70px;
+    bottom: 35px;
+    transform: translateY(100%);
+    color: white;
+}
+
+    
+    #dropdown{
+        width: 100%;
+        height: 60px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid cornflowerblue;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 3px solid rgb(255, 255, 255);
+        color: white;
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    #suggestions{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid cornflowerblue;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 3px solid rgb(238, 238, 238);
+        border-radius: 10px;
+        
+    }
+    .input-group-2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .signupbtn{
+        
+        font-size: medium;
+        color: rgb(241, 237, 237);
+        background: transparent;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        
+
+
+    }
+    
